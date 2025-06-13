@@ -1,0 +1,20 @@
+{
+    "intents": [
+        {
+            "tag": "student_internship_search",
+            "patterns": [
+                "how do i find internships",
+                "where can i search for opportunities"
+            ],
+            "responses": [
+                "You can search internships under the 'Opportunities' tab by filtering your major, skills, or location.",
+                "Go to the Opportunities section and use filters to find relevant internships for your profile."
+            ],
+            "metadata": {
+                "audience": "student",
+                "category": "job_search",
+                "gemini_prompt": "Explain how to find internships on CampusConnect with tips for effective searching"
+            }
+        }
+    ]
+}
